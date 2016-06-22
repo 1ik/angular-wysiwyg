@@ -200,7 +200,7 @@ Requires:
         }
         function configureBootstrapTitle() {
           if (attrs.enableBootstrapTitle === 'true' && attrs.enableBootstrapTitle !== undefined) {
-            element.find('button[title]').tooltip({ container: 'body' });
+            //element.find('button[title]').tooltip({ container: 'body' });
           }
         }
         function insertTab(html, position) {
